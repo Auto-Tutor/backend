@@ -24,5 +24,7 @@ def hello_world_2():
 
     return 'Молодец, прошел тест'
 
+
 if __name__ == '__main__':
-    app.run()
+    # app.run()
+    app.run(host='0.0.0.0')
